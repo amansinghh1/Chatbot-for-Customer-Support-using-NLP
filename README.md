@@ -25,12 +25,6 @@ This is a professional AI-powered Customer Support Chatbot built using rule-base
 
 ---
 
-## 🖼️ UI Preview
-
-> ![Chatbot Preview](static/logo.png)
-
----
-
 ## 🚀 Getting Started
 
 1. Clone the repository
