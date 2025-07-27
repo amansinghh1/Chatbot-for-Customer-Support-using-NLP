@@ -57,7 +57,7 @@ python app.py Then go to 👉 http://127.0.0.1:5000 in your browser.
 └── README.md
 **
 
--------
+---
 
 ✅ Certification Note This repository is submitted as part of the official AI Internship Task at Snestron Internships – focused on building real-world NLP solutions.
 
