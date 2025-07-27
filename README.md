@@ -24,6 +24,11 @@ This is a professional AI-powered Customer Support Chatbot built using rule-base
 - 📁 Clean folder structure
 
 ---
+## 🖼️ UI Preview
+
+> ![Chatbot Preview](assets/ui-preview.png)
+
+---
 
 ## 🚀 Getting Started
 
