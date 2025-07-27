@@ -59,18 +59,15 @@ python app.py Then go to 👉 http://127.0.0.1:5000 in your browser.
 
 ---
 
----
 
 ## 🎥 Demo Video
 
-  
 [📽️ Download Demo](assets/demo.mp4)
-
 ---
 
 ## 🖼️ UI Preview
 
-> ![SupportiQ UI](assets/ui-preview.png)
+![SupportiQ UI](assets/ui-preview.png)
 
 ---
 
