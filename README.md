@@ -35,19 +35,18 @@ This is a professional AI-powered Customer Support Chatbot built using rule-base
 [📽️ Download Demo](assets/demo.mp4)
 
 
-## 🚀 Getting Started
+🚀 Getting Started
 
-1. Clone the repository
-
-```bash
+1. Clone the Repository
 git clone https://github.com/amansinghh1/Chatbot-for-Customer-Support-using-NLP.git
 cd "AI Customer Support Chatbot"
 
-2. Install dependencies
+2. Install Dependencies
 pip install -r requirements.txt
 
-3. Run the Flask server
-python app.py Then go to 👉 http://127.0.0.1:5000 in your browser.
+3. Run the Flask Server
+python app.py
+🔗 Then go to 👉 http://127.0.0.1:5000 in your browser.
 
 ---
 
