@@ -30,6 +30,11 @@ This is a professional AI-powered Customer Support Chatbot built using rule-base
 
 ---
 
+## 🎥 Demo Video
+
+[📽️ Download Demo](assets/demo.mp4)
+
+
 ## 🚀 Getting Started
 
 1. Clone the repository
