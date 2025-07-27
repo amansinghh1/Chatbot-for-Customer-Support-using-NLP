@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Need help with something?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later", "Talk to you later"],
+      "responses": ["Goodbye! Have a great day.", "Thanks for visiting!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Track my order", "Where is my package?", "Order status", "Delivery update"],
+      "responses": ["Please provide your order ID so I can track it for you."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["Cancel my order", "Stop the order", "I want to cancel"],
+      "responses": ["Sure, I can help. Please share your order ID."]
+    },
+    {
+      "tag": "return_item",
+      "patterns": ["Return my item", "I want to return", "How do I return this?"],
+      "responses": ["Returns can be initiated from your account under order history."]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": ["Refund policy", "Can I get my money back?", "Money refund"],
+      "responses": ["Refunds are issued within 5 to 7 days after we receive your returned item."]
+    },
+    {
+      "tag": "exchange_product",
+      "patterns": ["Exchange my product", "Replace item", "Can I get a different one?"],
+      "responses": ["We offer product exchanges for damaged or incorrect items. Share your order ID."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I want to complain", "Bad service", "Issue with product", "Not satisfied"],
+      "responses": ["I’m sorry to hear that. Can you please describe the issue in more detail?"]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["Payment failed", "Money deducted but no confirmation", "Payment problem"],
+      "responses": ["Please share your transaction ID, and we’ll look into it immediately."]
+    },
+    {
+      "tag": "account_help",
+      "patterns": ["Can't log in", "Forgot password", "Account locked", "Account issue"],
+      "responses": ["Try resetting your password or contact support if the issue persists."]
+    },
+    {
+      "tag": "technical_issue",
+      "patterns": ["App not working", "Website crashed", "Page not loading", "Facing bugs"],
+      "responses": ["Please clear your cache and try again. If the problem continues, we'll escalate it."]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Tell me about this item", "What does this product do?", "Product features"],
+      "responses": ["Please share the product name or code, and I’ll provide the details."]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": ["When will my order arrive?", "Delivery timeline", "Expected delivery date"],
+      "responses": ["Most orders are delivered within 3–5 working days."]
+    },
+    {
+      "tag": "shipping_cost",
+      "patterns": ["How much is delivery?", "Shipping charges?", "Is shipping free?"],
+      "responses": ["We offer free shipping for orders above ₹499."]
+    },
+    {
+      "tag": "order_modify",
+      "patterns": ["Can I change my address?", "Update my order", "Modify order"],
+      "responses": ["If the order hasn't shipped, yes! Please share your order ID."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["Is this in stock?", "Do you have product X?", "When will it be back?"],
+      "responses": ["Let me check availability. Please provide the product name or ID."]
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["Warranty details", "How long is the warranty?", "Warranty claim"],
+      "responses": ["Most products come with a 6-month warranty. Do you have the product name?"]
+    },
+    {
+      "tag": "installation",
+      "patterns": ["How to install?", "Setup guide", "Need help setting up"],
+      "responses": ["We have a user manual and video tutorial for that. Would you like the link?"]
+    },
+    {
+      "tag": "promo_code",
+      "patterns": ["Coupon code?", "Any discounts?", "Promo code available?"],
+      "responses": ["Use WELCOME10 for 10% off your first order!"]
+    },
+    {
+      "tag": "contact_human",
+      "patterns": ["Talk to a human", "Live agent please", "Support team", "Real person"],
+      "responses": ["Sure, connecting you to a human agent now..."]
+    },
+    {
+      "tag": "business_hours",
+      "patterns": ["When are you open?", "Support hours?", "Working hours"],
+      "responses": ["Our support team is available from 9 AM to 8 PM, Mon–Sat."]
+    },
+    {
+      "tag": "legal_info",
+      "patterns": ["Terms and conditions", "Privacy policy", "Legal support"],
+      "responses": ["You can find our legal policies on the website footer."]
+    },
+    {
+      "tag": "bulk_order",
+      "patterns": ["I want to place a bulk order", "Wholesale inquiry", "Bulk pricing?"],
+      "responses": ["That’s awesome! Please share your contact details and quantity required."]
+    },
+    {
+      "tag": "loyalty_points",
+      "patterns": ["How to use loyalty points?", "What are reward points?", "Redeem points"],
+      "responses": ["Loyalty points can be used during checkout. Check your account for your balance."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I have feedback", "I want to review", "Can I rate your service?"],
+      "responses": ["Sure! We value your feedback. Please type it below."]
+    },
+    {
+      "tag": "language_support",
+      "patterns": ["Do you support Hindi?", "Can I use Marathi?", "Chat in local language?"],
+      "responses": ["Currently, we support English. More languages coming soon!"]
+    },
+    {
+      "tag": "gift_cards",
+      "patterns": ["Do you sell gift cards?", "Gift voucher available?", "Buy a gift card"],
+      "responses": ["Yes! You can buy gift cards from the 'Gifts' section on our website."]
+    },
+    {
+      "tag": "subscription_cancel",
+      "patterns": ["Cancel my subscription", "Stop auto-renew", "Unsubscribe me"],
+      "responses": ["I can help. Please confirm your email or phone linked to the subscription."]
+    },
+    {
+      "tag": "reschedule_delivery",
+      "patterns": ["Can I change delivery date?", "Reschedule my order", "Delay the delivery"],
+      "responses": ["Sure, please share your order ID and preferred delivery date."]
+    },
+    {
+      "tag": "wrong_item",
+      "patterns": ["I got the wrong item", "This isn't what I ordered", "Incorrect delivery"],
+      "responses": ["Apologies! Please share a photo and your order ID. We’ll fix this ASAP."]
+    }
+  ]
+}
